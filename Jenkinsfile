@@ -1,6 +1,6 @@
 pipeline{
     agent{
-        label "jenkins-salve"
+        label "jenkins-slave"
     }
     stages{
         stage("print"){
